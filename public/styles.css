@@ -557,6 +557,20 @@ video {
 	--tw-ring-offset-shadow: 0 0 #0000;
 	--tw-ring-shadow: 0 0 #0000;
 }
+.mt-12 {
+	margin-top: 3rem;
+}
+.p-4 {
+	padding: 1rem;
+}
+.px-16 {
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+.py-6 {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
 .text-6xl {
 	font-size: 3.75rem;
 	line-height: 1;
@@ -577,10 +591,6 @@ video {
 .text-gray-600 {
 	--tw-text-opacity: 1;
 	color: rgba(75, 85, 99, var(--tw-text-opacity));
-}
-.text-red-600 {
-	--tw-text-opacity: 1;
-	color: rgba(220, 38, 38, var(--tw-text-opacity));
 }
 .text-gray-700 {
 	--tw-text-opacity: 1;
