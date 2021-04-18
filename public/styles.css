@@ -560,6 +560,24 @@ video {
 .mt-12 {
 	margin-top: 3rem;
 }
+.mt-8 {
+	margin-top: 2rem;
+}
+.border-b {
+	border-bottom-width: 1px;
+}
+.border-red-500 {
+	--tw-border-opacity: 1;
+	border-color: rgba(239, 68, 68, var(--tw-border-opacity));
+}
+.border-gray-200 {
+	--tw-border-opacity: 1;
+	border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+.border-gray-100 {
+	--tw-border-opacity: 1;
+	border-color: rgba(243, 244, 246, var(--tw-border-opacity));
+}
 .p-4 {
 	padding: 1rem;
 }
@@ -570,6 +588,9 @@ video {
 .py-6 {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
+}
+.pb-2 {
+	padding-bottom: 0.5rem;
 }
 .text-6xl {
 	font-size: 3.75rem;
