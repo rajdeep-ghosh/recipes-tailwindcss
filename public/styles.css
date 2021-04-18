@@ -587,14 +587,23 @@ video {
 .flex {
 	display: flex;
 }
+.grid {
+	display: grid;
+}
 .h-32 {
 	height: 8rem;
 }
 .w-full {
 	width: 100%;
 }
+.grid-cols-3 {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 .justify-center {
 	justify-content: center;
+}
+.gap-10 {
+	gap: 2.5rem;
 }
 .overflow-hidden {
 	overflow: hidden;
@@ -706,7 +715,21 @@ video {
 }
 @media (min-width: 768px) {
 
+	.md\:grid-cols-2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
 	.md\:justify-end {
 		justify-content: flex-end;
+	}
+}
+@media (min-width: 1024px) {
+
+	.lg\:grid {
+		display: grid;
+	}
+
+	.lg\:grid-cols-3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 }
