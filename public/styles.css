@@ -566,6 +566,9 @@ video {
 .top-0 {
 	top: 0px;
 }
+.col-span-2 {
+	grid-column: span 2 / span 2;
+}
 .m-4 {
 	margin: 1rem;
 }
@@ -715,8 +718,16 @@ video {
 }
 @media (min-width: 768px) {
 
+	.md\:col-span-2 {
+		grid-column: span 2 / span 2;
+	}
+
 	.md\:grid-cols-2 {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.md\:grid-cols-3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 
 	.md\:justify-end {
