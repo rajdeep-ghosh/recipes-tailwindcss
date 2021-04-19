@@ -557,6 +557,10 @@ video {
 	--tw-ring-offset-shadow: 0 0 #0000;
 	--tw-ring-shadow: 0 0 #0000;
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+.title-heading-font {
+        font-family: 'Nunito', sans-serif;
+    }
 .relative {
 	position: relative;
 }
@@ -565,9 +569,6 @@ video {
 }
 .top-0 {
 	top: 0px;
-}
-.col-span-2 {
-	grid-column: span 2 / span 2;
 }
 .m-4 {
 	margin: 1rem;
@@ -598,9 +599,6 @@ video {
 }
 .w-full {
 	width: 100%;
-}
-.grid-cols-3 {
-	grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .justify-center {
 	justify-content: center;
@@ -722,12 +720,12 @@ video {
 		grid-column: span 2 / span 2;
 	}
 
-	.md\:grid-cols-2 {
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-
 	.md\:grid-cols-3 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.md\:grid-cols-2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 
 	.md\:justify-end {
@@ -735,10 +733,6 @@ video {
 	}
 }
 @media (min-width: 1024px) {
-
-	.lg\:grid {
-		display: grid;
-	}
 
 	.lg\:grid-cols-3 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));

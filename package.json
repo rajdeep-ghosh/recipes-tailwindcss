@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "postcss src/tailwindcss.css -o public/styles.css -w"
+    "build-css": "postcss src/tailwind.css -o public/styles.css -w"
   },
   "author": "Rajdeep Ghosh",
   "license": "ISC",
