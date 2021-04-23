@@ -13,6 +13,6 @@
     }
 
     .load-more-btn {
-        @apply bg-[#e2e2d5] text-[#8888b3] btn hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300;
+        @apply bg-[#e2e2d5] text-[#8888b3] hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300;
     }
 }
